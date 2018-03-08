@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.function.Predicate;
 import java.util.function.Function;
 import java.util.function.*;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 /**
  *
@@ -32,6 +33,7 @@ import java.util.function.*;
 @Log4j
 @RestController
 @Component
+@EnableAutoConfiguration
 public class UserAdminController
 {
     @Autowired
